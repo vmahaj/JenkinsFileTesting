@@ -16,5 +16,10 @@ pipeline {
 				echo "Code deploy.."
 			}
 		}
+		stage ('Validation'){
+			steps {
+				echo "Validation stage.."
+			}
+		}
 	}
 }
